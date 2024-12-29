@@ -82,12 +82,25 @@
 
 
 
+// Promises
+
+// Question 1: Temperature Check
+// Create a function checkTemperature() that:
+
+// Resolves with "Temperature is below 30°C" if the temperature is less than 30.
+// Rejects with "Temperature is above 30°C" otherwise. Input: 25.
 
 
+// const  checkTemperature = (temp)=>{
+//     return new Promise((resolve , rejtect)=>{
+//       if(temp < 30){
+//            resolve("Temperature is below 30°C");
+//       }else{
+//         rejtect("Temperature is above 30°C")
+//       }
+//     })
+// }
 
 
-
-
-
-
-
+// checkTemperature(31).then((message)=>console.log(message))
+// .catch((err)=> console.log(err))
